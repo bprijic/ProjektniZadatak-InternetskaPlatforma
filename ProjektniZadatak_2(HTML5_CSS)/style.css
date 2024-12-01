@@ -1,0 +1,52 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+/* Zaglavlje */
+header {
+    position: relative;
+    width: 100%;
+}
+
+.banner {
+    background-image: url("Banner/BannerprojektZad2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px; /* Visina bannera */
+}
+
+/* Navigacija */
+nav {
+    background-color: #2c3e50; /* Tamnoplava boja */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Lagana sjena za isticanje */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin: 0 10px; /* Razmak između poveznica */
+}
+
+li a {
+    display: block;
+    color: #ecf0f1; /* Svijetla boja za tekst */
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+li a:hover {
+    background-color: #34495e; /* Boja pri hoveru */
+    border-radius: 4px; /* Za zaobljene kutove */
+}

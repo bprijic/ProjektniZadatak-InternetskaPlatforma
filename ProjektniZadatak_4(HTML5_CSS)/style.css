@@ -1,0 +1,157 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    background-color: #f4f4f4; /* Svijetla siva boja za pozadinu */
+}
+
+/* Zaglavlje */
+header {
+    position: relative;
+    width: 100%;
+}
+
+.banner {
+    background-image: url("Banner/BannerprojektZad2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px; /* Visina bannera */
+}
+
+/* Navigacija */
+nav {
+    background-color: #2c3e50; /* Tamnoplava boja */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Lagana sjena za isticanje */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin: 0 10px; /* Razmak između poveznica */
+}
+
+li a {
+    display: block;
+    color: #ecf0f1; /* Svijetla boja za tekst */
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+li a:hover {
+    background-color: #34495e; /* Boja pri hoveru */
+    border-radius: 4px; /* Za zaobljene kutove */
+}
+
+/* Odavde na niže je CSS za Zadatak 3 */
+
+/* Main */
+main {
+    padding: 20px;
+    background-color: #f4f4f4; /* Svijetla siva boja za pozadinu */
+    color: #333; /* Tamna boja za tekst */
+    line-height: 1.6;
+}
+
+/* Naslov i odlomci */
+h1 {
+    color: #2c3e50; /* Tamnoplava boja za naslov */
+    margin-bottom: 20px; /* Razmak ispod naslova */
+    font-size: 2em; /* Prilagođena veličina naslova */
+}
+
+p {
+    margin-bottom: 15px; /* Razmak između odlomaka */
+    color: #555; /* Tamnosiva boja za tekst */
+    font-size: 1em; /* Standardna veličina fonta za odlomke */
+}
+
+/* Slika i opis slike */
+figure {
+    text-align: left; /* Poravnavanje figure s lijeva */
+    margin: 20px 0;
+}
+
+img {
+    float: left; /* Slika je poravnata ulijevo */
+    max-width: 40%; /* Prilagodba veličine slike */
+    height: auto; /* Prilagodba visine slike za održavanje proporcija */
+    margin-right: 20px; /* Razmak između slike i teksta */
+    border: 5px solid #ddd; /* Oko slike */
+}
+
+figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+}
+
+/* Source paragraf na kraju 3. zadatka */
+p a {
+    color: #2c3e50; /* Tamnoplava boja za link */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+p a:hover {
+    color: #34495e; /* Boja pri hoveru */
+}
+
+/* Ikone društvenih mreža */
+.social-icon {
+    width: 24px; /* Veličina ikone */
+    margin-top: 0.4em; /* Razmak od vrha */
+    margin-right: 8px; /* Razmak između ikona */
+    background-color: transparent; /* Postavlja pozadinu na prozirnu */
+    border: none; /* Uklanja okvir oko SVG-a */
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1); /* Povećanje ikone pri hoveru */
+}
+
+/* Odavde na niže je CSS za Zadatak 4 */
+
+/* Podnožje */
+footer {
+    background-color: #2c3e50; /* Tamnoplava pozadina */
+    margin-top: 30px; /* Povećanje udaljenosti od gornjih elemenata */
+    color: #ecf0f1; /* Bijela boja za tekst */
+    text-align: center; /* Centriranje teksta */
+    padding: 10px 0; /* Unutarnji razmak */
+    position: relative; /* Pozicioniranje */
+    width: 100%; /* Širina podnožja */
+    font-family: 'Arial', sans-serif; /* Postavljanje fonta */
+    display: flex; /* Flexbox za poravnavanje elemenata */
+    justify-content: center; /* Centriranje elemenata po širini */
+    align-items: center; /* Poravnanje elemenata po visini */
+    gap: 10px; /* Razmak između teksta i ikone */
+}
+
+/* Stil za GitHub ikonu */
+.github-icon {
+    width: 24px; /* Veličina ikone */
+    vertical-align: middle; /* Poravnanje ikone s tekstom */
+    background: transparent; /* Bez pozadine */
+    display: inline-block; /* Osiguranje da se ikona ponaša kao inline element */
+    border: none; /* Uklanjanje eventualnog okvira oko SVG-a */
+}
+
+/* Osiguranje bijele boje za tekst u paragrafu */
+footer p {
+    color: #ecf0f1; /* Bijela boja teksta */
+    margin: 0; /* Uklanjanje margine od paragrafa */
+    display: flex; /* Flexbox za poravnavanje teksta i ikone */
+    align-items: center; /* Poravnanje elemenata po visini */
+    gap: 5px; /* Razmak između teksta i ikone */
+}
