@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="hr">
+    <head>
+        <title>Projektni zadatak 8 - Novosti 3</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="description" content="Projekt sveučilišta VERN posvećen analizi serije The Walking Dead, istražujući likove, epizode i temu post-apokalipse.">
+        <meta name="keywords" content="VERN, sveučilište VERN, The Walking Dead, serija, zombiji, apokalipsa, AMC, televizijska serija, glumačka postava, likovi, Rick Grimes, Daryl Dixon, Negan, zombijeva apokalipsa, horor serija, televizijski show, fanovi, teorije, analiza, epizode, sezona, streaming, internetska platforma, online sadržaj, obrazovanje, projekt VERN">
+        <meta name="author" content="Bojan Prijić"> 
+        <meta name="robots" content="index, follow">
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+<header>
+    <div class="banner"></div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Početna stranica</a></li>
+            <li><a href="Novosti.html">Novosti</a></li>
+            <li><a href="Kontakt.html">Kontakt</a></li>
+            <li><a href="#">O nama</a></li>
+            <li><a href="Galerija.html">Galerija</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h1>NOVOSTI - Galerija slika članaka</h1>
+    <div class="gallery-title">
+        <h2>Galerija slika novosti</h2>
+    </div>
+    <div id="news_gallery">
+        <a href="Novosti-1.html" id="1">
+            <figure>
+                <img src="Img/Novosti1-1.jpg" alt="Season 1" title="Season 1">
+                <figcaption>Season 1: Days Gone Bye</figcaption>
+            </figure>
+        </a>
+        <a href="Novosti-2.html" id="2">
+            <figure>
+                <img src="Img/Novosti2-2.jpg" alt="Season 2" title="Season 2">
+                <figcaption>Season 2: What Lies Ahead</figcaption>
+            </figure>
+        </a>
+        <a href="Novosti-3.html" id="3">
+            <figure>
+                <img src="Img/Novosti3-3.jpg" alt="Season 3" title="Season 3">
+                <figcaption>Season 3: Walk with Me</figcaption>
+            </figure>
+        </a>
+        <a href="Novosti-4.html" id="4">
+            <figure>
+                <img src="Img/Novosti4-4.jpg" alt="Season 4" title="Season 4">
+                <figcaption>Season 4: 30 Days Without an Accident</figcaption>
+            </figure>
+        </a>
+        <a href="Novosti-5.html" id="5">
+            <figure>
+                <img src="Img/Novosti5-5.jpg" alt="Season 5" title="Season 5">
+                <figcaption>Season 5: No Sanctuary</figcaption>
+            </figure>
+        </a>
+    </div>
+    <button class="next" onclick="moveGallery(1)">&#10095;</button>
+    <hr>
+    <div class="news">
+        <h2>AMC's The Walking Dead Season 3: Walk with Me</h2>
+        <p class="description">Treća sezona serije *The Walking Dead* premijerno je prikazana 2012. godine i nastavila je priču o grupi preživjelih koji se suočavaju s novim izazovima. Radnja se uglavnom odvija u zatvoru gdje se grupa nastoji skloniti i pronaći sigurnost, dok se suočava s prijetnjama izvan i unutar zatvora.</p>
+        <p>Glavni protagonist, Rick Grimes, mora donijeti teške odluke kako bi osigurao sigurnost svoje grupe. Nova prijetnja dolazi u obliku tyranskog guvernera, koji vlada zajednicom ljudi s čudnim i opasnim pravilima. Sezona istražuje teme moći, kontrole i sukoba između različitih grupa preživjelih.</p>
+        <p>Treća sezona sadrži 16 epizoda i bila je vrlo dobro prihvaćena od strane kritike. Povećana je napetost i dinamičnost radnje, što je dodatno povećalo popularnost serije i zadržalo veliki broj gledatelja.</p>
+        <p>Sezona se ističe akcijskim scenama, razvojem likova i emocionalnim trenucima, a priča se razvija prema tragičnim događajima koji duboko pogađaju likove. Ova sezona je bila ključna za jačanje univerzuma *The Walking Dead* i otvaranje novih pravaca za buduće priče.</p>
+        <p>Izvor: <a href="https://walkingdead.fandom.com/wiki/Season_3_(TV_Series)" target="_blank">Walking Dead Wiki | Fandom</a></p>
+        <p>Objavljeno: 30. studenog 2024.</p>
+        <p><a href="Novosti.html">Povratak na Novosti</a></p>
+    </div>
+</main>
+<footer>
+    <p>
+        Copyright &copy; 2024 Bojan Prijić.
+        <a href="https://github.com/bprijic?tab=repositories" target="_blank">
+            <img src="Img/github-ikona.svg" title="Github" alt="Github" class="github-icon">
+        </a>
+    </p>
+</footer>
+<script>
+    function moveGallery(direction) {
+        const gallery = document.getElementById('news_gallery');
+        const scrollAmount = 250; // Prilagodite za brzinu pomicanja
+
+        gallery.scrollLeft += direction * scrollAmount;
+    }
+</script>
+</body>
+</html>

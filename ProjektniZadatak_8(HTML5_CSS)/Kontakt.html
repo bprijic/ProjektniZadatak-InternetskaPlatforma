@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Projektni zadatak 8 - Kontakt</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="description" content="Projekt sveučilišta VERN posvećen analizi serije The Walking Dead, istražujući likove, epizode i temu post-apokalipse.">
+        <meta name="keywords" content="VERN, sveučilište VERN, The Walking Dead, serija, zombiji, apokalipsa, AMC, televizijska serija, glumačka postava, likovi, Rick Grimes, Daryl Dixon, Negan, zombijeva apokalipsa, horor serija, televizijski show, fanovi, teorije, analiza, epizode, sezona, streaming, internetska platforma, online sadržaj, obrazovanje, projekt VERN">
+        <meta name="author" content="Bojan Prijić"> 
+        <meta name="robots" content="index, follow">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <header>
+        <div class="banner"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Početna stranica</a></li>
+                <li><a href="Novosti.html">Novosti</a></li>
+                <li><a href="Kontakt.html">Kontakt</a></li>
+                <li><a href="#">O nama</a></li>
+                <li><a href="Galerija.html">Galerija</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Kontakt obrazac</h1>
+        <div id="contact">
+            <iframe src="https://www.google.com/maps?q=Ul.%20Vrbik%20VIII,%2010000%20Zagreb&output=embed" width="100%" height="400" style="border:0;" allowfullscreen></iframe>
+            <form action="http://work2.eburza.hr/pwa/responzive-page/send-contact.php" id="contact_form" name="contact_form" method="POST">
+                <label for="fname">Ime *</label>
+                <input type="text" id="fname" name="firstname" placeholder="Vaše ime..." required>
+    
+                <label for="lname">Prezime *</label>
+                <input type="text" id="lname" name="lastname" placeholder="Vaše prezime..." required>
+    
+                <label for="email">Vaša e-mail adresa *</label>
+                <input type="email" id="email" name="email" placeholder="Vaša e-mail adresa..." required>
+    
+                <label for="country">Država</label>
+                <select id="country" name="country">
+                    <option value="">Odaberite</option>
+                    <option value="BE">Bosna i Hercegovina</option>
+                    <option value="HR" selected>Hrvatska</option>
+                    <option value="LU">Srbija</option>
+                    <option value="HU">Mađarska</option>
+                </select>
+    
+                <label for="subject">Upit</label>
+                <textarea id="subject" name="subject" placeholder="Napišite Vaš upit..." style="height:200px"></textarea>
+    
+                <input type="submit" value="Pošalji">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>
+            Copyright &copy; 2024 Bojan Prijić.
+            <a href="https://github.com/bprijic?tab=repositories" target="_blank">
+                <img src="Img/github-ikona.svg" title="Github" alt="Github" class="github-icon">
+            </a>
+        </p>
+    </footer>
+</body>
+</html>
